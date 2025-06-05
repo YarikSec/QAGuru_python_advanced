@@ -1,0 +1,11 @@
+requests
+pytest
+httpx
+fastapi
+fastapi-pagination
+
+email-validator
+python-dotenv
+pydantic
+
+
