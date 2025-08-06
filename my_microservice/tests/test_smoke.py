@@ -1,7 +1,7 @@
 from http import HTTPStatus
 
 import requests
-from my_microservice.models.AppStatus import AppStatus
+from my_microservice.app.models.AppStatus import AppStatus
 import pytest
 
 
