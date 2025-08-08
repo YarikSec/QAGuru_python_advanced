@@ -3,8 +3,8 @@ from typing import Iterable
 
 from fastapi import APIRouter, HTTPException
 
-from app.database import users
-from app.models.User import User, UserCreate, UserUpdate
+from my_microservice.app.database import users
+from my_microservice.app.models.User import User, UserCreate, UserUpdate
 
 router = APIRouter(prefix="/api/users")
 
