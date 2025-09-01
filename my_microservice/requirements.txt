@@ -1,9 +1,13 @@
 pytest
-fastapi
+fastapi[standard]
 email-validator
 python-dotenv
 requests
 pydantic
+
+psycopg2-binary
+sqlalchemy
+sqlmodel
 
 fastapi-pagination
 uvicorn
