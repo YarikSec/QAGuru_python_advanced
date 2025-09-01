@@ -5,7 +5,7 @@ services:
     # image: qa-guru-app
     build: .
     environment:
-      DATABASE_ENGINE: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5433/postgres
+      DATABASE_ENGINE: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5433//${POSTGRES_USER}
     ports:
       - 8002:80
     depends_on:
